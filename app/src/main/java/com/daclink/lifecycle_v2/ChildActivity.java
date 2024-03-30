@@ -41,7 +41,6 @@ public class ChildActivity extends AppCompatActivity {
         return false;
       }
     });
-
   }
 
   static Intent intentFactory(Context context, boolean messageValue) {
