@@ -8,7 +8,14 @@ import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
 import androidx.appcompat.app.AppCompatActivity;
 import com.daclink.lifecycle_v2.databinding.ActivityChildBinding;
-
+/**
+ * @author Ichiro Miyasato
+ * @date 29 March 2024
+ * @explanation This ChildActivity class is an extension of the MainActivity class.
+ * It involves preserving the state of the MainActivity application's context and
+ * allowing the user to manipulate that state using intent factories on the
+ * ChildActivity screen.
+ */
 public class ChildActivity extends AppCompatActivity {
 
   private static final String SHOW_MESSAGE_ONE = "com.daclink.lifecycle_v2.extraValue";
