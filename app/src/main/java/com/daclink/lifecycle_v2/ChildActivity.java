@@ -3,15 +3,10 @@ package com.daclink.lifecycle_v2;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import com.daclink.lifecycle_v2.databinding.ActivityChildBinding;
 
 public class ChildActivity extends AppCompatActivity {
